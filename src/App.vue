@@ -108,12 +108,12 @@
             >
               <p>兒童口罩</p>
               <h4>{{ item.properties.mask_child }} <span>片</span></h4>
-              <!-- <i class="material-icons child-icon">child_care</i> -->
               <img
                 class="icon"
                 src="@/assets/images/child-mask.svg"
                 alt=""
               >
+              <!-- <i class="material-icons child-icon">child_care</i> -->
             </div>
           </div>
         </a>
@@ -306,7 +306,7 @@ export default {
         <div class="count child ${item.properties.mask_child ? '' : 'zero'}">
           <p>兒童口罩</p>
           <h4>${item.properties.mask_child}<span>片</span></h4>
-          <img class="icon" src="@/assets/images/child-mask.svg" alt="">
+          <div class="icon"></div>
         </div>
       </div>
       `
