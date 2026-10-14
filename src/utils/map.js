@@ -69,12 +69,13 @@ const createMakerCluster = () => {
 }
 
 // 自定義 icon 樣式
+import blueMarker from '@/assets/images/marker-icon-blue.png'
+
 const blueIcon = new $L.icon({
-  iconUrl: 'https://images2.imgbox.com/13/62/ytyBrz01_o.png',
-  // iconUrl: '../assets/images/marker-icon-blue.png',
+  iconUrl: blueMarker,
   shadowUrl:
     'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-  iconSize: [45, 45],
+  iconSize: [41, 51],
   iconAnchor: [22, 11],
   popupAnchor: [0, 0]
 })
